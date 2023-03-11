@@ -1,0 +1,90 @@
+ERROR - 2023-02-20 16:06:36 --> Error connecting to the database: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+CRITICAL - 2023-02-20 16:06:36 --> Unable to connect to the database.
+Main connection [SQLsrv]: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\red\app\Models\RedModel.php(26): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-02-20 16:06:59 --> Error connecting to the database: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+CRITICAL - 2023-02-20 16:06:59 --> Unable to connect to the database.
+Main connection [SQLsrv]: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\red\app\Models\RedModel.php(26): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-20 16:22:47 --> Undefined variable: data
+#0 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Red.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-20 16:23:39 --> Error connecting to the database: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+CRITICAL - 2023-02-20 16:23:39 --> Unable to connect to the database.
+Main connection [SQLsrv]: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\prueba_usuarios\app\Models\RedModel.php(26): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-20 16:23:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Red.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 16:27:01 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\prueba_usuarios\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\prueba_usuarios\app\Models\RedModel.php(13): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Red.php(13): App\Models\RedModel->__construct()
+#4 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-02-20 16:27:24 --> Error connecting to the database: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+CRITICAL - 2023-02-20 16:27:24 --> Unable to connect to the database.
+Main connection [SQLsrv]: Login failed for user 'conexion'.
+Cannot open database "BDECOOPSOS" requested by the login. The login failed.
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\prueba_usuarios\app\Models\RedModel.php(26): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-20 16:28:21 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\prueba_usuarios\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\prueba_usuarios\app\Models\RedModel.php(13): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Red.php(13): App\Models\RedModel->__construct()
+#4 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

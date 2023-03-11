@@ -1,0 +1,16 @@
+ERROR - 2022-07-19 08:40:28 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-07-19 08:40:29 --> Unable to connect to the database.
+Main connection [SQLsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\red\app\Models\RedModel.php(26): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,163 @@
+CRITICAL - 2022-06-01 10:46:03 --> Undefined variable: db
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 10:46:30 --> Call to undefined method CodeIgniter\Database\SQLSRV\Builder::getResultArray()
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 10:46:51 --> Undefined variable: db
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 10:47:05 --> Undefined variable: thi
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-01 10:47:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'ADMINISTRATIVA.dbo.dbo.RDA_RED_DEPARTAMENTO_ADM'.
+CRITICAL - 2022-06-01 10:47:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'ADMINISTRATIVA.dbo.dbo.RDA_RED_DEPARTAMENTO_ADM'.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(35): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 10:47:28 --> Undefined index: RDA_ID
+#0 C:\xampp\htdocs\red\app\Views\red\home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\red\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\red\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\red\system\Common.php(1089): CodeIgniter\View\View->render('red/home', Array, true)
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(15): view('red/home', Array)
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 10:48:44 --> Undefined class constant 'HYDRATE_ARRAY'
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 11:40:46 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\red\app\Models\RedModel.php(36): json_decode(Object(CodeIgniter\Database\SQLSRV\Result))
+#2 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-01 11:43:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RDA_DEP_DES'.
+CRITICAL - 2022-06-01 11:43:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RDA_DEP_DES'.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "RDA_ID"...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "RDA_ID"...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "RDA_ID"...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(36): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 11:44:39 --> Undefined variable: db
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 11:48:53 --> Undefined variable: db
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-01 11:50:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'ADMINISTRATIVA.dbo.dbo.RDA_RED_DEPARTAMENTO_ADM'.
+CRITICAL - 2022-06-01 11:50:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'ADMINISTRATIVA.dbo.dbo.RDA_RED_DEPARTAMENTO_ADM'.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "RDA_ID"...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "RDA_ID"...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "RDA_ID"...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(37): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 11:52:56 --> Call to undefined method CodeIgniter\Database\SQLSRV\Connection::select()
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 11:53:57 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\red\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\red\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\RedM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\RedM...')
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(13): spl_autoload_call('App\\Models\\RedM...')
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 11:58:25 --> Undefined variable: db
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(23): App\Models\RedModel->getMunicipios(Array)
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->filtraMunicipios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 12:09:10 --> Array to string conversion
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->filtraMunicipios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 12:09:42 --> Array to string conversion
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->filtraMunicipios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 12:16:56 --> Array to string conversion
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->filtraMunicipios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 12:17:37 --> Array to string conversion
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->filtraMunicipios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

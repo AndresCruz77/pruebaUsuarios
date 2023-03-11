@@ -1,0 +1,68 @@
+ERROR - 2022-06-21 15:12:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'BDECOOPSOS.dbo.ServiciosContratados'.
+CRITICAL - 2022-06-21 15:12:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'BDECOOPSOS.dbo.ServiciosContratados'.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(67): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ortodo')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-21 15:12:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'BDECOOPSOS.dbo.ServiciosContratados'.
+CRITICAL - 2022-06-21 15:12:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'BDECOOPSOS.dbo.ServiciosContratados'.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(67): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ortodon')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 15:28:09 --> Undefined index: SERVICIO
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ortodo')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 15:31:53 --> Undefined index: SERVICIO
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ortodo')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 15:31:53 --> Undefined index: SERVICIO
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ortodon')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 15:44:25 --> Undefined index: SERVICIO
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ortodo')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-21 15:45:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+CRITICAL - 2022-06-21 15:45:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ortodo')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2022-06-06 15:17:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\red\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\red\system\Common.php(1089): CodeIgniter\View\View->render('red/home', Array, true)
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(17): view('red/home', Array)
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

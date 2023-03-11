@@ -1,0 +1,625 @@
+ERROR - 2022-06-16 09:45:17 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-06-16 09:45:17 --> Unable to connect to the database.
+Main connection [SQLsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\red\app\Models\RedModel.php(40): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 11:48:05 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\red\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\red\system\Common.php(1089): CodeIgniter\View\View->render('red/home', Array, true)
+#2 C:\xampp\htdocs\red\app\Controllers\Red.php(19): view('red/home', Array)
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-16 12:06:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:06:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(59): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('u')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:06:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:06:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(59): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ur')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:09:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:09:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(61): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('urg')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 12:13:31 --> Class 'CodeIgniter\Database\RawSql' not found
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('u')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:13:31 --> Class 'CodeIgniter\Database\RawSql' not found
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ur')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:13:31 --> Class 'CodeIgniter\Database\RawSql' not found
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('urg')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:25:17 --> Class 'CodeIgniter\Database\RawSql' not found
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('u')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:25:18 --> Class 'CodeIgniter\Database\RawSql' not found
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ur')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-16 12:32:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:32:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('a')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:32:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:32:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('aa')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:37:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:37:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('aaa')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:37:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:37:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('aaaa')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:38:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:38:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('a')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:38:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:38:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('aa')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:38:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:38:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('a')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:38:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 12:38:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(63): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('a')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 12:43:15 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('c')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:43:15 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('co')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:43:15 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('con')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:43:16 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('cons')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:43:50 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('s')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 12:43:50 --> Illegal string offset 'query'
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ss')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-16 14:23:58 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+ERROR - 2022-06-16 14:23:58 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-06-16 14:23:58 --> Unable to connect to the database.
+Main connection [SQLsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\red\app\Models\RedModel.php(41): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 14:23:58 --> Unable to connect to the database.
+Main connection [SQLsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "RSA_DES...', Array, false)
+#2 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('s')
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 14:24:37 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('a')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:24:37 --> Illegal string offset 'query'
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('aa')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 14:25:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('c')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:25:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('co')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:25:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('con')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:25:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('cons')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:26:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('con')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:26:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('co')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:26:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('c')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:26:59 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('c')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:27:00 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('co')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:27:00 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('con')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:27:00 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('cons')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:27:07 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consu')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:28:02 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consul')
+#1 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:30:10 --> Illegal string offset 'query'
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('internacio')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 14:30:10 --> Illegal string offset 'query'
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('internacion')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 14:30:12 --> Illegal string offset 'query'
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('internacionn')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 14:30:13 --> Illegal string offset 'query'
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('internacion')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 14:30:15 --> Illegal string offset 'query'
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('internacio')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+ERROR - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+ERROR - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+ERROR - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+ERROR - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+ERROR - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+CRITICAL - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ccccccc')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ccccccccccc')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('cccccc')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('cccccccc')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('cccccccccc')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 15:00:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CONCAT' is not a recognized built-in function name.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT CONCAT( ...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT( ...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT( ...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('ccccccccc')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 15:04:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The CONCAT function requires 2 argument(s).
+ERROR - 2022-06-16 15:04:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The CONCAT function requires 2 argument(s).
+ERROR - 2022-06-16 15:04:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The CONCAT function requires 2 argument(s).
+CRITICAL - 2022-06-16 15:04:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The CONCAT function requires 2 argument(s).
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT {fn CONC...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT {fn CONC...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT {fn CONC...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consul')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 15:04:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The CONCAT function requires 2 argument(s).
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT {fn CONC...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT {fn CONC...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT {fn CONC...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consulta')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 15:04:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The CONCAT function requires 2 argument(s).
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT {fn CONC...')
+#1 C:\xampp\htdocs\red\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT {fn CONC...')
+#2 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT {fn CONC...', Array, false)
+#3 C:\xampp\htdocs\red\app\Models\RedModel.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consult')
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#7 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 15:41:23 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-06-16 15:41:23 --> Unable to connect to the database.
+Main connection [SQLsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 C:\xampp\htdocs\red\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\red\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT "CodDEP"...', Array, false)
+#2 C:\xampp\htdocs\red\app\Models\RedModel.php(41): CodeIgniter\Database\SQLSRV\Builder->get()
+#3 C:\xampp\htdocs\red\app\Controllers\Red.php(14): App\Models\RedModel->getDepartamentos()
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->index()
+#5 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#6 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 15:42:10 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consult')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:42:10 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consul')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:42:10 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consulta')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:42:55 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consul')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:42:56 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consult')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:43:00 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consulta')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:44:27 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consul')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:44:28 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consult')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:44:28 --> Undefined index: RSA_DESC_SERV
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(36): App\Models\RedModel->getServicios('consulta')
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaServicios()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:54:26 --> Undefined index: servicio
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(46): App\Models\RedModel->getIpsred(Array)
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaRed()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-16 15:54:53 --> Undefined index: servicio
+#0 C:\xampp\htdocs\red\app\Models\RedModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\red\app\Controllers\Red.php(46): App\Models\RedModel->getIpsred(Array)
+#2 C:\xampp\htdocs\red\system\CodeIgniter.php(832): App\Controllers\Red->ConsultaRed()
+#3 C:\xampp\htdocs\red\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Red))
+#4 C:\xampp\htdocs\red\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\red\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

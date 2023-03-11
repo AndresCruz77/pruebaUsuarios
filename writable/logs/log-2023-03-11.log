@@ -1,0 +1,304 @@
+CRITICAL - 2023-03-11 08:59:21 --> Class 'Config\Cors' not found
+#0 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/tickets', 'before')
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+ERROR - 2023-03-11 09:26:47 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:26:47 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:28:12 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:28:12 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:30:38 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:30:38 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:31:20 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:31:20 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:36:37 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:36:37 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:37:06 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:37:06 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:37:19 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:37:19 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:39:01 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:39:01 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:41:14 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:41:14 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:42:06 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:42:06 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:46:41 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:46:41 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-11 09:46:48 --> Call to undefined method App\Models\TicketsModel::insert_id
+#0 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(42): CodeIgniter\Model->__call('insert_id', Array)
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#3 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 09:47:25 --> Undefined property: App\Controllers\Tickets::$db
+#0 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#3 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 09:48:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-11 09:48:46 --> Call to undefined method App\Models\TicketsModel::insert_id
+#0 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(42): CodeIgniter\Model->__call('insert_id', Array)
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#3 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-03-11 09:50:31 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:50:31 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:51:32 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:51:32 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:51:42 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:51:42 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:52:03 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:52:03 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-11 09:53:05 --> Column 'usuario' cannot be null
+CRITICAL - 2023-03-11 09:53:05 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\prueba_usuarios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\prueba_usuarios\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\prueba_usuarios\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prueba_usuarios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prueba_usuarios\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->create()
+#9 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#10 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-11 10:13:50 --> Undefined variable: pagine
+#0 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->index()
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#3 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 10:31:06 --> Undefined index: usuario
+#0 C:\xampp\htdocs\prueba_usuarios\app\Controllers\Tickets.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->update('1')
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#3 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 11:52:56 --> Class 'App\Controllers\ProductModel' not found
+#0 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->delete('12')
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-11 11:53:10 --> Class 'App\Controllers\ProductModel' not found
+#0 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->delete('12')
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-11 11:54:01 --> Class 'App\Controllers\ProductModel' not found
+#0 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(832): App\Controllers\Tickets->delete('12')
+#1 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#2 C:\xampp\htdocs\prueba_usuarios\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_usuarios\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
